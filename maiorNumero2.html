@@ -1,0 +1,22 @@
+<script>
+
+    //Peça ao usuário para informar três números e diga, ao final do programa, qual dos três é o maior número.
+
+    const numero1 = Number(prompt(`Informe um número`));
+    const numero2 = Number(prompt(`Informe  outro número`));
+    const numero3 = Number(prompt(`Informe um terceiro número`));
+
+    let maiorNumero;
+
+    if (numero1 > numero2 && numero1 > numero3) {
+        maiorNumero = numero1;
+    } else if (numero2 > numero1 && numero2 > numero3) {
+        maiorNumero = numero2;
+    } else {
+        maiorNumero = numero3;
+    }
+
+   alert(`O maior número é: ${maiorNumero}`);
+
+
+</script>
